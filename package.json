@@ -1,15 +1,17 @@
 {
-  "name": "oauth-cloudflare-worker",
-  "version": "1.0.0",
-  "repository": "https://github.com/vexagonverp/oauth-cloudflare-worker.git",
-  "author": "thanh.tranbao <57084519+vexagonverp@users.noreply.github.com>",
-  "scripts": {
+	"name": "oauth-cloudflare-worker",
+	"version": "1.0.0",
+	"repository": "https://github.com/vexagonverp/oauth-cloudflare-worker.git",
+	"author": "thanh.tranbao <57084519+vexagonverp@users.noreply.github.com>",
+	"scripts": {
 		"deploy": "wrangler publish src/index.ts",
 		"dev": "wrangler dev src/index.ts --local",
 		"test": "vitest"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^3.0.0",
+		"@types/jest": "^29.5.0",
+		"@types/node": "^18.15.11",
 		"vitest": "^0.24.5",
 		"wrangler": "^2.1.14"
 	}

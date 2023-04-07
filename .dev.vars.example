@@ -1,0 +1,3 @@
+CLIENT_ID = id
+CLIENT_SECRET = secret
+OAUTH_CODE_CALLBACK = http://127.0.0.1:8719/oauth
